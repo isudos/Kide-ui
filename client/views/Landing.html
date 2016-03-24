@@ -1,0 +1,27 @@
+<template name="Landing">
+{{> LandingHeader}}
+
+	<div class="jumbotron">
+		<div class= "headers">
+		  <h1>Knowledge driven coding</h1>
+
+		  <p>Making complex programming problems solvable</p>
+		       <div class="buttons">
+		        <a class="btn btn-default btn-large moreClick" href="#">Learn More</a>
+		        <a class="btn btn-default btn-large tryClick" href="#">Try it now</a>
+		       </div>
+		   </div>
+	</div>
+
+	<div id="kideschema" class="well">
+		<div class="images">
+    		<img src="/Kide.png" alt="Kide Principles" style="width:891px;height:402px" usemap="#schememap">
+	    		<map name="schememap">
+	  			<area shape="rect" coords="150,30,400,300" alt="knowledge" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+	  			<area shape="rect" coords="90,58,3" alt="Mercury" href="mercur.htm">
+	  			<area shape="rect" coords="124,58,8" alt="Venus" href="venus.htm">
+			</map>
+		</div>
+	</div>
+
+</template>

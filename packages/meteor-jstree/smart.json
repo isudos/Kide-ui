@@ -1,0 +1,9 @@
+{
+    "name": "jstree",
+    "description": "jstree 3.0.0 packaged for meteor",
+    "homepage": "https://github.com/tobkle/meteor-jstree",
+    "author": "tobkle (https://github.com/tobkle/meteor-jstree-example)",
+    "version": "1.0",
+    "git": "git@github.com:tobkle/meteor-jstree.git",
+    "packages": { }
+}

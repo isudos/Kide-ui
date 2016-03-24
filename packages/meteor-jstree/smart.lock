@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "jstree": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "jstree": {
+        "path": "."
+      }
+    }
+  }
+}

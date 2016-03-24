@@ -1,0 +1,28 @@
+<template name="editor">
+    	       
+    <div id="main" class="container-fluid">
+    	<div class="row-fluid">
+    		{{> HeaderMenu}}
+    	</div>
+		<div class="row-fluid">
+
+		 	<div class="span1">
+		 		<div class="panel panel-default">
+  					<div class="panel-body">
+  						{{> FileTree}}
+  					</div>
+				</div>
+			</div>
+		 	<div class="span10">
+        <div id="tabs" class="container-fluid">
+		 		   {{> Tabs}}
+           {{> KnowledgePanel}}
+        </div>
+		 	</div>
+		</div>
+    </div>
+
+    {{> OpenDialog}}
+    {{> SaveDialog}}
+    
+</template>

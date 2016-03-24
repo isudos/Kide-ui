@@ -1,0 +1,62 @@
+.navbar .brand {
+  color: #4775FF;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+#landingNavbar {
+	background-color: #5A84AC;
+	background-image: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+	margin: 0;
+}
+
+.jumbotron {
+  background-image:url('/background_landing.jpg');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	color: #FFFFFF;
+}
+
+.jumbotron p {
+	position: absolute;
+	top: 30%;
+	left: 36%;
+	color: #FFFFFF;
+
+}
+
+.jumbotron .headers .buttons{
+	position: absolute;
+	top: 34%;
+	left: 38%;
+}
+
+.jumbotron headers{
+	position: absolute;
+	top: 34%;
+	left: 36%;
+}
+
+.well .images {
+	position: relative;
+	top: 2%;
+	left: 15%;
+}
+
+.well  {
+	background-color: #FFFFFF;
+}
+
+#login-dropdown-list {
+position: absolute;
+top: 0px;
+left: -250px;
+}
